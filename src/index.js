@@ -1,5 +1,4 @@
 module.exports = function getZerosCount(number) {
-  // your implementation
 	
 	let zeros = 0;
 	
@@ -9,7 +8,7 @@ module.exports = function getZerosCount(number) {
 		
 		while (num % 2 == 0) {
 			num /= 2;
-			result += 1
+			result += 1;
 		}
 		
 		return result;
@@ -22,7 +21,7 @@ module.exports = function getZerosCount(number) {
 		
 		while (num % 5 == 0) {
 			num /= 5;
-			result += 1
+			result += 1;
 		}
 		
 		return result;
